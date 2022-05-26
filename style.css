@@ -1,0 +1,164 @@
+@font-face {
+	font-family: Overpass;
+	src: url('./Fonts/Overpass/Overpass-VariableFont_wght.ttf');
+}
+
+@font-face {
+	font-family: Ubuntu;
+	src: url('./Fonts/Ubuntu/Ubuntu-Medium.ttf');
+}
+ 
+.WE{
+	font-family:Ubuntu;
+}
+
+body {
+	font-family:Overpass;
+	text-decoration-color: hsl(240, 10%, 16%);
+	overflow-x: hidden;
+}
+
+
+
+
+
+
+
+.bg-img {
+	background-image: url("./images/bg-pattern-intro-desktop.svg");
+	min-height: 380px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+	background-color: hsl(13, 100%, 72%);
+}
+
+.BD{
+	border: none;
+	background-color: white;
+	padding: 4px 11px;
+	border-radius: 15px;
+	font-size: 11px;
+	color: hsl(353, 100%, 62%);
+    
+}
+.BD1{
+	font-size: 15px;
+	color:pink;
+	
+}
+
+.navi{
+	font-size: 14px;
+	
+}
+
+
+#cont{
+border-radius: 0px 0px 0px 30px;
+
+}
+
+
+.texta{
+	text-align: center;
+
+}
+.bt1{
+	border: none;
+	background-color: white;
+	padding: 5px 10px;
+	border-radius: 25px;
+	font-size: 11px;
+	color: hsl(353, 100%, 62%);
+
+
+}
+
+.bt2{
+	padding: 4px 11px;
+	border-radius: 25px;
+	font-size: 11px;
+	color:white; 
+	border: 1px solid #fff
+
+
+}
+
+
+/* section2 */
+
+.bg-img2 {
+	background-image: url("./images/illustration-editor-desktop.svg");
+	min-height: 540px;
+	background-position:right;
+	background-repeat: no-repeat;
+	background-size: contain; 
+	padding-top: 20px;
+	
+	
+}
+#sec2{
+
+	background-color: white;
+}
+
+.texto{
+	font-size: 20px;
+}
+
+
+
+/* section 3 */
+
+
+.bg-img3 {
+	background-image: url("./images/bg-pattern-circles.svg");
+	min-height:80px;
+	background-position:left;
+	background-repeat: no-repeat;
+	background-size: contain; 
+	background-color:hsl(237, 17%, 21%);
+	height: 300px;
+	
+}
+
+@media(max-width: 767px) {
+	.bg-img3 {
+		height: 100%;	
+	}
+
+	#edi{
+		margin-left: 0 !important;
+
+	}
+	.DF{
+
+		margin-top: 0 !important;
+	}
+	.DH{
+		padding-top: 20px;
+	}
+}
+
+#cont3{
+	border-radius: 0px 40px 0px 40px;
+	
+	}
+
+
+	/* section 5 */
+
+	.cont4{
+		border-radius: 0px 40px 0px 0px;
+		background-color: hsl(240, 10%, 16%);
+		background-size: 300px;
+		
+		}
+
+		.ult ul{
+			list-style-type: none;
+		}
+
+	
+
